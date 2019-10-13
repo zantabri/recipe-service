@@ -1,0 +1,62 @@
+= Cheatsheets
+
+[[FoodCategory]]
+== FoodCategory
+
+++++
+
+++++
+'''
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[title]]`@title`|`String`|-
+|===
+
+[[FoodOrigin]]
+== FoodOrigin
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[title]]`@title`|`String`|-
+|===
+
+[[PreparationStep]]
+== PreparationStep
+
+++++
+
+++++
+'''
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[content]]`@content`|`String`|-
+|[[sequence]]`@sequence`|`Number (int)`|-
+|[[title]]`@title`|`String`|-
+|===
+
+[[Recipe]]
+== Recipe
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[categories]]`@categories`|`Array of link:dataobjects.html#FoodCategory[FoodCategory]`|-
+|[[description]]`@description`|`String`|-
+|[[difficulty]]`@difficulty`|`Number (int)`|-
+|[[imageUrl]]`@imageUrl`|`String`|-
+|[[name]]`@name`|`String`|-
+|[[origin]]`@origin`|`link:dataobjects.html#FoodOrigin[FoodOrigin]`|-
+|[[preparationSteps]]`@preparationSteps`|`Array of link:dataobjects.html#PreparationStep[PreparationStep]`|-
+|===
+
